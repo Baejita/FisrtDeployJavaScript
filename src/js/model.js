@@ -166,6 +166,3 @@ export const uploadRecipe = async function(newRecipe) {
    
 }
 
-export const sayhi = function() {
-    console.log('Sayhi');
-}
