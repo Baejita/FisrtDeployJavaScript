@@ -1,6 +1,7 @@
 import icons from '../../img/icons.svg';
 import Veiw  from "./Veiw";
-
+import { sayhi } from '../model';
+sayhi()
 class AddRecipeView extends Veiw{
     _parentElement = document.querySelector('.upload')
     _message = 'Recipe was successfully uploaded :)';
